@@ -6,7 +6,7 @@ dist/
 wheels/
 *.egg-info
 blog.db
-media/profile_pics/
+media/profile_pics/*
 
 # Virtual environments
 .venv

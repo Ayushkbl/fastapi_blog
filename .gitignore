@@ -7,6 +7,8 @@ wheels/
 *.egg-info
 blog.db
 media/profile_pics/*
+.env
+*/__pycache__/
 
 # Virtual environments
 .venv

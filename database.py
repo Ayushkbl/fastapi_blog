@@ -6,6 +6,7 @@ SQLALCHEMY_DATABASE_URL = "sqlite+aiosqlite:///./blog.db"
 engine = create_async_engine(
     SQLALCHEMY_DATABASE_URL,
     connect_args={"check_same_thread": False},
+    echo=True,
 )
 
 # Commented the synchronous session creation present below

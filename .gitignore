@@ -9,6 +9,8 @@ blog.db
 media/profile_pics/*
 .env
 */__pycache__/
+populate_db.py
+populate_images/
 
 # Virtual environments
 .venv

@@ -12,5 +12,7 @@ media/profile_pics/*
 populate_db.py
 populate_images/
 
+alembic/versions/
+
 # Virtual environments
 .venv
